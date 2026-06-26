@@ -1,35 +1,27 @@
-# CodeAlpha_WebScraping
+# CodeAlpha - Web Scraping Project
 
-## Objective
-This project demonstrates web scraping using Python and BeautifulSoup to extract quotes and author names from a public website.
+## Project Description
 
-## Tools Used
+This project demonstrates web scraping using Python. It extracts book information from the Books to Scrape website and stores the data in a CSV file.
+
+## Technologies Used
+
 - Python
 - Requests
 - BeautifulSoup
 - Pandas
 
-## Website Used
-https://quotes.toscrape.com
-
 ## Features
-- Extracts quotes
-- Extracts author names
-- Saves data into CSV format
 
-## How to Run
-
-1. Install dependencies
-
-pip install -r requirements.txt
-
-2. Run the script
-
-python scraper.py
+- Scrapes book titles
+- Scrapes prices
+- Scrapes ratings
+- Scrapes availability
+- Exports data into CSV
 
 ## Output
 
-A CSV file named data.csv will be generated containing all scraped quotes.
+books.csv
 
 ## Author
 
